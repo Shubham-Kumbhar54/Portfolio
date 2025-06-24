@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h2>Hello, I'm <span class="highlight">Shubham Kumbhar</span></h2>
+    <p>Full Stack  Web Developer </p>
+    <button onclick="scrollToContact()">Hire Me</button>
+  </section>
+
+  <section id="about" class="section">
+    <h3>About Me</h3>
+    <p>I create responsive and user-friendly websites using modern web technologies like HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h3>Projects</h3>
+    <div class="project">
+      <h4>Project One</h4>
+      <p>A responsive website built with HTML, CSS, and JS.</p>
+    </div>
+    <div class="project">
+      <h4>Project Two</h4>
+      <p>A simple JavaScript app to showcase interactivity.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact</h3>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shubham Kumbhar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
